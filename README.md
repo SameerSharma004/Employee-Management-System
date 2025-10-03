@@ -1,16 +1,60 @@
-# React + Vite
+# Employee Management System (EMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **Employee Management System (EMS)** is a full-stack web application built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)** with **Tailwind CSS** for styling. It helps organizations efficiently manage employee records through an intuitive, responsive, and modern interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🔐 Secure login & authentication  
+- ➕ Add, ✏️ Update, ❌ Delete, and 👁️ View employee records  
+- 🔎 Search and filter employees with ease  
+- 📱 Responsive design powered by Tailwind CSS  
+- ⚡ Scalable backend with MongoDB & Express.js  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Tools:** Axios
 
-## React Compiler
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Installation & Setup
 
-## Expanding the ESLint configuration
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/employee-management-system.git
+   cd employee-management-system
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies**
+   * For backend:
+      ```bash
+          cd server
+          npm install
+      ```
+
+    * For frontend:
+      ```bash
+          npm install
+      ```
+3. **Run the application**
+     * Start backend:
+       ```bash
+         cd server
+         nodemon index.js
+       ```
+    * Start frontend:
+      ```bash
+        npm run dev
+      ```
+## 📊 Usage
+
+Admin can log in securely.
+
+Manage employees (add, edit, delete, view).
+
+Search and filter employee records.
+
+View data on a clean, responsive dashboard.
+
+## 📜 License
+
+This project is licensed under the MIT License.
